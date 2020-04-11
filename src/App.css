@@ -1,0 +1,353 @@
+.header-color {
+  /* background-color:#fffaf2 !important; */
+  background-color: rgba(255, 250, 242, 1) !important;
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #FFFFFF, #ECE9E6); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black !important;
+  margin-top: 20px !important;
+}
+
+
+.landing-grid {
+  background-color:#fffaf2 !important;
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #FFFFFF, #ECE9E6); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black !important;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mdl-layout{
+  background-color:#fffaf2 !important;
+}
+.mdl-navigation__link {}
+
+/* .mdl-layout__title {
+  color: black !important;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 40px;
+} */
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: black !important;
+  opacity: 1;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 17px;
+  font-weight: bold;
+  /* border: 2px solid black; */
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* box-shadow: 6px 6px 6px 0 rgba(255, 255, 255, 1), -6px -6px -6px 0 rgba(0, 0, 0, .03); */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 5px rgba(255, 255, 255, .9);
+  border-radius:10px;
+  /* z-index: 100; */
+}
+
+.mdl-layout__header-row .mdl-navigation__link:hover{
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.07), inset -5px -5px 5px rgba(255, 255, 255, .9);
+}
+
+
+.avatar {
+  height: 100px;
+ 
+  padding-top: 18em;
+}
+
+.banner-text {
+  /* background-color: black; */
+  opacity: .8;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  /* box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05), inset -5px -5px 5px rgba(0, 0, 0, .05); */
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: rgba(240, 202, 139,1) !important;
+  font-family: 'Poppins', sans-serif !important;
+  padding: 5px;
+}
+
+.Typewriter{
+  font-size: 66px;
+  font-weight: bold;
+  color: rgba(240, 202, 139,1) !important;
+  padding: 5px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.Typewriter__wrapper{
+
+}
+
+
+.banner-text hr {
+  border-top: 5px dotted rgba(240, 202, 139,1);
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.banner-text h2{
+  font-size: 26px;
+  color: rgba(240, 202, 139,1) !important;
+  margin-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0px;
+}
+.banner-text p {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(240, 202, 139,1) !important;
+  padding: 1em;
+  margin-bottom: 0px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: rgba(240, 202, 139,1) !important;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+  background-color:#fffaf2 !important;
+}
+
+/* Contact Me CSS */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  height: 80%;
+  /* background: white; */
+  background: rgba(247, 224, 186, 0.20);
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.contact-grid p {
+  font-family: 'Cutive Mono';
+  font-weight: bold;
+  padding-bottom: 10px !important;
+
+}
+
+.contact-grid hr {
+  border-top: 5px dotted rgba(240, 202, 139,1);
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 3rem;
+}
+
+.contact-list {
+  justify-content: center;
+  display: flex;
+}
+
+.contact-list ListItemContent {
+  justify-content: center;
+}
+
+.mdl-tabs__tab-bar{
+  border-bottom: 4px dotted rgba(245,216,166, .45) !important ;
+  padding-bottom: 20px !important;
+  margin-bottom: 5px !important;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  /* background: rgba(245,216,166, .45) !important; */
+  /* background-color:rgba(17,99,4,1)!important; */
+  background-color:#fffaf2 !important;
+  
+  margin-bottom: 5px;
+}
+
+.mdl-shadow--16dp {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 5px rgba(255, 255, 255, .9) !important;
+}
+
+.mdl-card{
+  background-color:#fffaf2 !important;
+  border-radius:15px !important;
+  padding: 20px !important;
+}
+
+.mdl-card__title{
+  background: black;
+  padding: 10px;
+}
+
+.mdl-tabs__tab{
+  text-transform: none !important;
+  border-radius:15px;
+  margin-left: 10px !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 5px rgba(255, 255, 255, .75) !important;
+}
+
+.mdl-tabs__tab:hover{
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.07), inset -5px -5px 5px rgba(255, 255, 255, .75) !important;
+}
+
+
+.tabsClass{
+  font-family: 'Cutive Mono';
+  border: 1px solid black;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.07), inset -5px -5px 5px rgba(255, 255, 255, .75) !important;
+}
+
+.mdl-grid.contact-grid{
+  box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.07), inset -8px -8px 8px rgba(0, 0, 0, .07) !important;
+
+  border-radius: 25px;
+}
+
+
+.mdl-layout__drawer-button{
+  color:rgba(240, 202, 139,1) !important;
+}
+
+.mdl-layout__drawer {
+  background-color:#fffaf2 !important;
+ 
+
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  opacity: 1;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 17px !important;
+  color: black !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+  padding-left: 22px !important;
+}
+
+.mdl-layout-title a{
+  /* padding: 15px; */
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.13), -1px -1px 3px rgba(255, 255, 255, 1) !important;
+  border-radius: 10px;
+  margin-top: 17px !important;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold !important;
+  color:#fffaf2 !important;
+  font-size: 17px !important;
+  background-color: rgba(191, 10, 21, .85) !important;
+}
+
+.mdl-layout-title a:hover{
+  box-shadow:  inset 5px 5px 5px rgba(0, 0, 0, .09), inset -5px -5px 8px rgba(255, 255, 255, .15) !important;
+}
+.mdl-card__title-text {
+  background-color:black;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.mdl-navigation a{
+  text-align: center !important;
+  border-radius: 10px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 5px rgba(255, 255, 255, .9);
+
+
+}
+
+.mdl-navigation a:hover{
+  background-color:#fffaf2 !important;
+  box-shadow:  inset 5px 5px 5px rgba(0, 0, 0, .09), inset -5px -5px 8px rgba(255, 255, 255, .15) !important;
+}
+
+
+.mdl-button.mdl-button--colored{
+  margin: 3px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 5px rgba(255, 255, 255, .9);
+}
+
+.mdl-button.mdl-button--colored:hover{
+  background-color:#fffaf2 !important;
+  box-shadow:  inset 5px 5px 5px rgba(0, 0, 0, .09), inset -5px -5px 8px rgba(255, 255, 255, .15) !important;
+
+}
+
+.c{
+  color: rgba(240, 202, 139,1) !important;
+  font-weight:bold;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: .5vw;
+  margin-right: .35px;
+  border-radius:20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 10px rgba(255, 255, 255, .76);
+  position: relative;
+
+}
+
+.email-contact-list p{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07), -5px -5px 5px rgba(255, 255, 255, .56);
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+  font-size: 17px !important;
+  margin: 10px auto 1vw auto;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding-left: 0.8vw;
+   padding-right: .8vw;
+  border-radius: 20px;
+}
+
+.email-contact-list p:hover{
+  box-shadow:  inset 5px 5px 5px rgba(0, 0, 0, .09), inset -5px -5px 8px rgba(255, 255, 255, .15) !important;
+
+}
